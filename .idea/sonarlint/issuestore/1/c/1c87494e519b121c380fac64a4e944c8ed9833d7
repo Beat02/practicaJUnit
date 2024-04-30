@@ -1,0 +1,7 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8èäÈñò1J$7fc0a0d0-7131-48c7-bd74-8a76a57c7939
+r	java:S106"+Replace this use of System.out by a logger.(¨‰ÁÉıÿÿÿÿ8ÕüÈñò1J$8bcb99b8-1893-4fb8-84ac-cada8e329972
+p
+java:S1128"-Remove this unused import 'org.junit.Before'.(ÙşºÙ8ïäÈñò1J$18514061-697d-4671-9b69-6c75a676f8c3
+
+java:S1128"<Remove this unused import 'org.junit.jupiter.api.BeforeAll'.(—¦¹î8ïäÈñò1J$385838b6-7a17-4654-a220-977331a14897
