@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 
 import java.util.ArrayList;
+import java.util.Collection;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -15,10 +16,6 @@ clase), utilizando el método “vaciarCine()”.
 Después, en cada método de test aislado, preparar las listas
 con la información necesaria para cada prueba.*/
 public class SistemaVentaEntradaTest {
-    //TODO: “limpiar” las listas de entradas y salas antes de cada test
-    //@BeforeEach
-    //void limpiarCine(){
-    //System.out.println("(Limpiando salas y listas de entradas)");
     static SistemaVentaEntradas miSistema;
 
     @BeforeAll
@@ -26,10 +23,11 @@ public class SistemaVentaEntradaTest {
         System.out.println("ANTES DE TODOS LOS TESTS");
         miSistema = new SistemaVentaEntradas();
     }
-
+    //“limpiar” las listas de entradas y salas antes de cada test
     @BeforeEach
-    void limpiarListaEntradas() {
-        //miSistema.
+    void limpiarCine(){
+        miSistema.vaciarCine();
+        System.out.println("(Sistema de venta de entradas limpio)");
     }
 
     @Test
@@ -64,19 +62,13 @@ public class SistemaVentaEntradaTest {
     @DisplayName("Comprobar que la entrada se añadido a la lista")
     void comprarEntradasAddListaEntradas() {
         Entrada miEntrada = new Entrada(1, 5, 10.0);
+        miSistema.anyadirSala(1, "Una rubia muy legal");
         miSistema.comprarEntrada(1, 5);
-        //TODO:Revisar
         for (Entrada entrada : miSistema.getEntradas()) {
-            assertEquals(entrada, miEntrada);
+            assertEquals(entrada.getNumButaca(), miEntrada.getNumButaca());
+            assertEquals(entrada.getNumSala(), miEntrada.getNumSala());
+            assertEquals(entrada.getPrecio(), miEntrada.getPrecio());
         }
-        /*
-        ArrayList<Entrada> miLista=new ArrayList<>();
-        miLista.add(miEntrada);
-        //Comprobar entrada se añade a lista
-        miSistema.getEntradas();
-        assertArrayEquals(miSistema.getEntradas(),miLista);
-        assertInstanceOf(miSistema.getEntradas(),miEntrada);
-         */
 
     }
 }

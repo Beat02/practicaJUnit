@@ -1,19 +1,17 @@
 
 —
-java:S1192&"TDefine a constant instead of duplicating this literal "Una rubia muy legal" 3 times.(‘øò»8áîìô1J$a782079f-0312-4066-ab4d-b6316735f612
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8ãîìô1J$603547bc-da31-4f9a-9845-6c5a77651ff4
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(’—ãÚıÿÿÿÿ8ïîìô1J$55065342-3819-46ab-9721-0193d18b3b97
-u
-java:S1135"2Complete the task associated to this TODO comment.(Ñ‡ĞÜ8ğîìô1J$6088ae41-1bc3-4e51-ac0b-59cfa2cead37
-r	java:S106"+Replace this use of System.out by a logger.(‰òÚ¡úÿÿÿÿ8òîìô1J$a1a68663-5dc4-44e2-91c8-11e35571a616
+java:S1192$"TDefine a constant instead of duplicating this literal "Una rubia muy legal" 4 times.(‘øò»8æÜ¹íô1J$c322c152-bf52-43d9-8a48-3ffd4a7394a1
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8éÜ¹íô1J$b1a2a5d8-2d06-4148-a8ac-ac06208ed5d6
+r	java:S106"+Replace this use of System.out by a logger.(‰òÚ¡úÿÿÿÿ8÷Ü¹íô1J$0b1589e9-3d80-41eb-917a-73ebe871d02c
+m	java:S106"+Replace this use of System.out by a logger.(œîÁ8úÜ¹íô1J$14004b10-407a-4023-9524-c29646cbe91f
 z
-java:S1135+"2Complete the task associated to this TODO comment.(ä·êåúÿÿÿÿ8÷îìô1J$3ff58df5-9831-4d0d-aa88-371aa1709dbb
-z
-java:S1135D"2Complete the task associated to this TODO comment.(Ü—úĞúÿÿÿÿ8ùîìô1J$c805964a-896f-4f1d-bfc5-392b55562449
-ƒ	java:S125I"<This block of commented-out lines of code should be removed.(Ûµæ¬ûÿÿÿÿ8úîìô1J$845c3bc7-7361-408f-86cf-081fe74c7d45
+java:S1135)"2Complete the task associated to this TODO comment.(ä·êåúÿÿÿÿ8€İ¹íô1J$28ede293-515c-4b96-b555-ce57aa829837
 Š
-java:S1128"GRemove this unused import 'org.junit.jupiter.params.ParameterizedTest'.(…²üî8ûîìô1J$aadf007d-5443-4c30-b156-5da2028a04a0
+java:S1128"GRemove this unused import 'org.junit.jupiter.params.ParameterizedTest'.(…²üî8Öö»íô1J$a3f11486-df12-4c2b-a912-20e18109ec11
 s
-java:S1128	"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ûîìô1J$b829e7eb-3262-47b5-9151-d0f8f9546db7
+java:S1128	"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8×ö»íô1J$f0ec34aa-fc83-4656-90f5-2b74bdff90a3
+y
+java:S1128
+"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8×ö»íô1J$0449eac5-c2be-40f8-85a0-9f0f3e25e321
 n
-java:S5960("+Remove this assertion from production code.(©ßñÁ8üîìô1J$790d382d-1adb-4bbd-9af7-1506c2547bc2
+java:S5960&"+Remove this assertion from production code.(©ßñÁ8†İ¹íô1J$afaab86c-f4ae-45cc-9c33-f248af9fd9b9
