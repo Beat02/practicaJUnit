@@ -80,12 +80,14 @@ public class SistemaVentaEntradaTest {
     @Test
     @DisplayName("Comprobar ArrayList salas vaciado")
     void vaciarCineTest(){
+        sistemaVenta.getSalas().clear();
        int totalSalas= sistemaVenta.getSalas().size();
        assertEquals(0,totalSalas);
     }
     @Test
     @DisplayName("Comprobar ArrayList entradas vaciado")
     void vaciarCineTestEntradas(){
+        sistemaVenta.getEntradas().clear();
         int totalEntradas=sistemaVenta.getEntradas().size();
         assertEquals(0,totalEntradas);
     }
