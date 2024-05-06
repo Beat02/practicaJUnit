@@ -1,11 +1,13 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8àö¡úô1J$ddf6423b-62db-44c1-a0a9-76f5e35e0daa
-r	java:S106"+Replace this use of System.out by a logger.(‰òÚ¡úÿÿÿÿ8ùö¡úô1J$de5dc080-8b5b-4e00-85a1-81406b8366ee
-r	java:S106"+Replace this use of System.out by a logger.( İòòüÿÿÿÿ8úö¡úô1J$c0959da2-a995-4ed8-a273-e21caebaa3df
-m	java:S106"+Replace this use of System.out by a logger.(ÂŞà´8»¥¢úô1J$f47084e5-2cc9-44eb-92ae-0cdb1979853f
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8ïãåúô1J$d326bf74-7e3c-4918-a6ff-956a3ca23bbc
+¯
+java:S4144D"gUpdate this method so that its implementation is not identical to "comprarEntradaErrorSala" on line 59.(ç¹šàÿÿÿÿÿ8éÙçúô1J$5eec283d-003b-42fb-985f-04df1cab78ab
+r	java:S106"+Replace this use of System.out by a logger.(‰òÚ¡úÿÿÿÿ8’äåúô1J$981acf44-4830-4c8f-af2d-dba2afb82eb6
+r	java:S106"+Replace this use of System.out by a logger.( İòòüÿÿÿÿ8”äåúô1J$a34c2c93-d80a-474c-94ef-e524305cdd9d
+m	java:S106"+Replace this use of System.out by a logger.(ÂŞà´8•äåúô1J$1df179fb-d2ab-4c0b-a6f4-e77e2a35d116
 ~
-java:S2696d"6Make the enclosing method "static" or remove this set.(¯›ªüÿÿÿÿ8ƒ÷¡úô1J$50240b2d-eb1f-4d38-a50a-14095d4ce746
+java:S2696e"6Make the enclosing method "static" or remove this set.(¯›ªüÿÿÿÿ8¢äåúô1J$6112aa6f-c662-4d3b-9b86-bc5d4036d476
 ~
-java:S2696x"6Make the enclosing method "static" or remove this set.(¯›ªüÿÿÿÿ8†÷¡úô1J$48deffc5-f7d2-4e09-a5ab-0ee1bf74cbc8
+java:S2696|"6Make the enclosing method "static" or remove this set.(¯›ªüÿÿÿÿ8¥äåúô1J$bd35013e-11a5-4486-9b6e-f65517b3e203
 s
-java:S5960$"+Remove this assertion from production code.(«Øáªùÿÿÿÿ8Œ÷¡úô1J$72d69a99-f741-4f29-947a-3a2ab1d3b8d1
+java:S5960#"+Remove this assertion from production code.(«Øáªùÿÿÿÿ8ªäåúô1J$fb441822-de28-4a75-b0b6-d6e730b480a3

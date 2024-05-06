@@ -6,13 +6,10 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/* Se aconseja “limpiar” las listas de entradas y salas antes de cada test (utilizando una anotación vista en
-clase), utilizando el método “vaciarCine()”.
-Después, en cada método de test aislado, preparar las listas
-con la información necesaria para cada prueba.*/
 public class SistemaVentaEntradaTest {
     static SistemaVentaEntradas sistemaVenta;
-    String pelicula="Una rubia muy legal";
+    String pelicula = "Una rubia muy legal";
+
     @BeforeAll
     static void crearInstanciaSistemaVenta() {
         System.out.println("ANTES DE TODOS LOS TESTS");
@@ -25,10 +22,12 @@ public class SistemaVentaEntradaTest {
         sistemaVenta.vaciarCine();
         System.out.println("SISTEMA DE VENTA DE ENTRADAS LIMPIO");
     }
+
     @AfterAll
-    static void mensajeFinal(){
+    static void mensajeFinal() {
         System.out.println("TEST FINALIZADO");
     }
+
     //Test anyadirSala
     @Test
     @DisplayName("Comprobar sala añadida TRUE")
@@ -53,12 +52,13 @@ public class SistemaVentaEntradaTest {
     }
 
     //TEST comprarEntrada
-    @Test //IRENE si quieres quitamos este test, que es el mismo que el tuyo pero al revés
-    @DisplayName("comprobar error si la sala no existe al comprar entrada")
-    void comprarEntradaErrorSala() {
+    @ParameterizedTest
+    @DisplayName("Comprobar error si al comprar la entrada la sala no existe")
+    @CsvSource({"30,5",
+            "4,10"})
+    void comprarEntradaErrorSala(int numero1, int numero2){
         sistemaVenta.anyadirSala(1, pelicula);
-        //Compruebo que nos da false si la sala que le indicamos no existe
-        assertFalse(sistemaVenta.comprarEntrada(30, 5));
+        assertFalse(sistemaVenta.comprarEntrada(numero1,numero2));
     }
 
     @ParameterizedTest
@@ -72,7 +72,7 @@ public class SistemaVentaEntradaTest {
     }
 
     @Test
-    @DisplayName("la entrada se compra y se añade a la lista de entradas")
+    @DisplayName("Comprobar compra entrada")
     void comprarEntradasSinErrores() {
         sistemaVenta.anyadirSala(1, pelicula);
         //Comprobar que se crea la entrada
@@ -93,6 +93,7 @@ public class SistemaVentaEntradaTest {
         }
 
     }
+
     //TEST TotalRecaudacion
     @Test
     @DisplayName("Comprobar total recaudación")
@@ -104,38 +105,43 @@ public class SistemaVentaEntradaTest {
         double totalEsperado = 18.0;
         assertEquals(totalEsperado, sistemaVenta.totalRecaudacion(), 0.0);
     }
+
     //TEST getEntradasVendidasPorSala
     @Test
-    @DisplayName("Comprobar método entradas vendidas")
-    void comprobarEntradasVendidasTest(){
+    @DisplayName("Comprobar cantidad entradas vendidas")
+    void comprobarEntradasVendidasTest() {
         sistemaVenta.anyadirSala(1, pelicula);
         sistemaVenta.comprarEntrada(1, 5);
-        sistemaVenta.comprarEntrada(1,12);
-        assertEquals(sistemaVenta.getEntradasVendidasPorSala(1),2);
+        sistemaVenta.comprarEntrada(1, 12);
+        int totalEntradas=2;
+        assertEquals(totalEntradas,sistemaVenta.getEntradasVendidasPorSala(1));
     }
+
     //TEST calcularPrecioEntrada
     @Test
     @DisplayName("Comprobar total recaudación correcto")
     void testCalcularPrecioEntrada() {
         sistemaVenta = new SistemaVentaEntradas();
-        assertEquals(10.0, sistemaVenta.calcularPrecioEntrada(5),0.0);
-        assertEquals(8.0, sistemaVenta.calcularPrecioEntrada(15),0.0);
-        assertEquals(5.0, sistemaVenta.calcularPrecioEntrada(25),0.0);
+        assertEquals(10.0, sistemaVenta.calcularPrecioEntrada(5), 0.0);
+        assertEquals(8.0, sistemaVenta.calcularPrecioEntrada(15), 0.0);
+        assertEquals(5.0, sistemaVenta.calcularPrecioEntrada(25), 0.0);
     }
+
     //TEST vaciarCine
     @Test
     @DisplayName("Comprobar ArrayList salas vaciado")
-    void vaciarCineTest(){
+    void vaciarCineTest() {
         sistemaVenta.getSalas().clear();
-       int totalSalas= sistemaVenta.getSalas().size();
-       assertEquals(0,totalSalas);
+        int totalSalas = sistemaVenta.getSalas().size();
+        assertEquals(0, totalSalas);
     }
+
     @Test
     @DisplayName("Comprobar ArrayList entradas vaciado")
-    void vaciarCineTestEntradas(){
+    void vaciarCineTestEntradas() {
         sistemaVenta.getEntradas().clear();
-        int totalEntradas=sistemaVenta.getEntradas().size();
-        assertEquals(0,totalEntradas);
+        int totalEntradas = sistemaVenta.getEntradas().size();
+        assertEquals(0, totalEntradas);
     }
 }
 
