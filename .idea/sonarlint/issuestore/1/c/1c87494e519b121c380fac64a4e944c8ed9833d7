@@ -1,7 +1,11 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8èäÈñò1J$7fc0a0d0-7131-48c7-bd74-8a76a57c7939
-r	java:S106"+Replace this use of System.out by a logger.(¨‰ÁÉıÿÿÿÿ8ÕüÈñò1J$8bcb99b8-1893-4fb8-84ac-cada8e329972
-p
-java:S1128"-Remove this unused import 'org.junit.Before'.(ÙşºÙ8ïäÈñò1J$18514061-697d-4671-9b69-6c75a676f8c3
-
-java:S1128"<Remove this unused import 'org.junit.jupiter.api.BeforeAll'.(—¦¹î8ïäÈñò1J$385838b6-7a17-4654-a220-977331a14897
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8¦¾ëô1J$f6660bfb-c6bd-427e-837d-79e5a3483adf
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(’—ãÚıÿÿÿÿ8±¾ëô1J$098021e7-0a0c-42dd-9fdc-9d13eca700da
+z
+java:S1135 "2Complete the task associated to this TODO comment.(ä·êåúÿÿÿÿ8„†ˆëô1J$3ed70436-71bd-4bf9-9494-79fb0ec57511
+Š
+java:S1128"GRemove this unused import 'org.junit.jupiter.params.ParameterizedTest'.(…²üî8¬ŒŠëô1J$aac0d272-96c7-4792-9d84-14893f463f3e
+‹
+java:S1128"HRemove this unused import 'org.junit.jupiter.api.Assertions.assertTrue'.(å¥Ş¬8š†ëô1J$cb1d6d91-f387-46b5-b7a0-d6b425d967d3
+n
+java:S5960"+Remove this assertion from production code.(©ßñÁ8¹¾ëô1J$e38ad844-818d-4e97-94df-798efdbe2d37
