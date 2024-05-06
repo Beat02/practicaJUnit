@@ -1,18 +1,19 @@
 
 —
-java:S1192"TDefine a constant instead of duplicating this literal "Una rubia muy legal" 3 times.(‘øò»8ºşöëô1J$f34b3dff-e50b-4b7d-9b24-a3a862d152ea
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8¿şöëô1J$820fb36c-076d-4448-94ff-0acbf7bd99a6
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(’—ãÚıÿÿÿÿ8Ôşöëô1J$f34e8968-9ad9-4f5a-b056-4dc6d4023420
+java:S1192&"TDefine a constant instead of duplicating this literal "Una rubia muy legal" 3 times.(‘øò»8áîìô1J$a782079f-0312-4066-ab4d-b6316735f612
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8ãîìô1J$603547bc-da31-4f9a-9845-6c5a77651ff4
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(’—ãÚıÿÿÿÿ8ïîìô1J$55065342-3819-46ab-9721-0193d18b3b97
 u
-java:S1135"2Complete the task associated to this TODO comment.(Ñ‡ĞÜ8Ùşöëô1J$eb348c9a-1157-4d1a-bdaa-151b89aff3df
+java:S1135"2Complete the task associated to this TODO comment.(Ñ‡ĞÜ8ğîìô1J$6088ae41-1bc3-4e51-ac0b-59cfa2cead37
+r	java:S106"+Replace this use of System.out by a logger.(‰òÚ¡úÿÿÿÿ8òîìô1J$a1a68663-5dc4-44e2-91c8-11e35571a616
 z
-java:S1135!"2Complete the task associated to this TODO comment.(ä·êåúÿÿÿÿ8éşöëô1J$b4130366-269b-465a-903e-311b0c2bd07c
-…
-java:S18548"=Remove this useless assignment to local variable "miSistema".(¢€ˆûÿÿÿÿ8ğşöëô1J$f6fa7a1a-0df5-43a0-9ac7-9a64dc8e76df
-v
-java:S14818".Remove this unused "miSistema" local variable.(¢€ˆûÿÿÿÿ8ôşöëô1J$c7f41c3f-5fea-47b6-a054-d383a5bd4279
-~	java:S125="<This block of commented-out lines of code should be removed.(«•áó8™ÿöëô1J$3c9813ec-8f24-4180-9afe-7ae5ce74573c
+java:S1135+"2Complete the task associated to this TODO comment.(ä·êåúÿÿÿÿ8÷îìô1J$3ff58df5-9831-4d0d-aa88-371aa1709dbb
+z
+java:S1135D"2Complete the task associated to this TODO comment.(Ü—úĞúÿÿÿÿ8ùîìô1J$c805964a-896f-4f1d-bfc5-392b55562449
+ƒ	java:S125I"<This block of commented-out lines of code should be removed.(Ûµæ¬ûÿÿÿÿ8úîìô1J$845c3bc7-7361-408f-86cf-081fe74c7d45
 Š
-java:S1128"GRemove this unused import 'org.junit.jupiter.params.ParameterizedTest'.(…²üî8šÿöëô1J$33b1ffe7-0e82-47cc-bce4-d4cae4ad4e40
+java:S1128"GRemove this unused import 'org.junit.jupiter.params.ParameterizedTest'.(…²üî8ûîìô1J$aadf007d-5443-4c30-b156-5da2028a04a0
+s
+java:S1128	"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ûîìô1J$b829e7eb-3262-47b5-9151-d0f8f9546db7
 n
-java:S5960"+Remove this assertion from production code.(©ßñÁ8›ÿöëô1J$a39f005f-8d6f-47aa-9f22-ba4c64bc7987
+java:S5960("+Remove this assertion from production code.(©ßñÁ8üîìô1J$790d382d-1adb-4bbd-9af7-1506c2547bc2
