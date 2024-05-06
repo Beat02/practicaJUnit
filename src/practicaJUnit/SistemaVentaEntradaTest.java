@@ -4,8 +4,9 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import java.util.ArrayList;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 /* Se aconseja “limpiar” las listas de entradas y salas antes de cada test (utilizando una anotación vista en
 clase), utilizando el método “vaciarCine()”.
@@ -31,7 +32,7 @@ public class SistemaVentaEntradaTest {
     }
     //TODO: crear el metodo como un ParameterizedTest
     @Test
-    @DisplayName("compruebo error si las butacas son errorneas")
+    @DisplayName("compruebo error si las butacas son erróneas")
     void comprarEntradaErrorButaca(){
         SistemaVentaEntradas miSistema=new SistemaVentaEntradas();
         miSistema.anyadirSala(1,"Una rubia muy legal");
@@ -39,6 +40,27 @@ public class SistemaVentaEntradaTest {
         assertFalse(miSistema.comprarEntrada(1,-1));
         // comrpuebo que da error si la butaca es mayor a 30
         assertFalse(miSistema.comprarEntrada(1,35));
+    }
+    @Test
+    @DisplayName("la entrada se compra y se añade a la lista de entradas")
+    void comprarEntradasSinErrores(){
+        SistemaVentaEntradas miSistema=new SistemaVentaEntradas();
+        miSistema.anyadirSala(1,"Una rubia muy legal");
+        //Comprobar que se crea la entrada
+        assertTrue(miSistema.comprarEntrada(1,5));
+
+    }
+    @Test
+    @DisplayName()
+    void comprarEntradasAddListaEntradas(){
+        SistemaVentaEntradas miSistema=new SistemaVentaEntradas();
+        Entrada miEntrada=new Entrada(1,5,10.0);
+        ArrayList<Entrada> miLista=new ArrayList<>();
+        miLista.add(miEntrada);
+        //Comprobar entrada se añade a lista
+        /*miSistema.getEntradas();
+        assertArrayEquals(miSistema.getEntradas(),miLista);
+        assertInstanceOf(miSistema.getEntradas(),miEntrada);*/
     }
 }
 

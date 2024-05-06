@@ -1,11 +1,14 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶ג–¡תÿÿÿÿ8¦¾כפ1J$f6660bfb-c6bd-427e-837d-79e5a3483adf
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(’—דÚ‎ÿÿÿÿ8±¾כפ1J$098021e7-0a0c-42dd-9fdc-9d13eca700da
+—
+java:S1192"TDefine a constant instead of duplicating this literal "Una rubia muy legal" 3 times.(‘רע»8צצאכפ1J$d84dee8f-1053-4fff-ba6c-719117d6d9bc
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶ג–¡תÿÿÿÿ8רצאכפ1J$9f936352-df2f-49ac-8b7b-50c9697eda4c
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(’—דÚ‎ÿÿÿÿ8„קאכפ1J$cba35041-c870-42eb-b9c0-803ace3d5c6d
 z
-java:S1135 "2Complete the task associated to this TODO comment.(ה·ךותÿÿÿÿ8„†ˆכפ1J$3ed70436-71bd-4bf9-9494-79fb0ec57511
-
-java:S1128"GRemove this unused import 'org.junit.jupiter.params.ParameterizedTest'.(…²üמ8¬כפ1J$aac0d272-96c7-4792-9d84-14893f463f3e
-‹
-java:S1128"HRemove this unused import 'org.junit.jupiter.api.Assertions.assertTrue'.(ו¥Þ¬8†כפ1J$cb1d6d91-f387-46b5-b7a0-d6b425d967d3
+java:S1135!"2Complete the task associated to this TODO comment.(ה·ךותÿÿÿÿ8ˆקאכפ1J$f857a8ee-b62c-470c-8e47-50d00f40dbe1
+…
+java:S18548"=Remove this useless assignment to local variable "miSistema".(¢€ˆûÿÿÿÿ8‹קאכפ1J$97b847a8-d019-4fb2-aef1-edaf3cd48d4b
+v
+java:S14818".Remove this unused "miSistema" local variable.(¢€ˆûÿÿÿÿ8קאכפ1J$ad0d47fc-412c-4d41-b4ae-361e723f168f
+~	java:S125="<This block of commented-out lines of code should be removed.(«•בף8קאכפ1J$298f3563-8f00-4fef-b269-3f9012fe3d51
 n
-java:S5960"+Remove this assertion from production code.(©ßסֱ8¹¾כפ1J$e38ad844-818d-4e97-94df-798efdbe2d37
+java:S5960"+Remove this assertion from production code.(©ßסֱ8קאכפ1J$fa2e57f7-02e2-492c-aa61-7a073fc0bde7
