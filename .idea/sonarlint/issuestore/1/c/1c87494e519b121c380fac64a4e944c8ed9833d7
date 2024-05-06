@@ -1,8 +1,11 @@
 
-–
-java:S1192#"TDefine a constant instead of duplicating this literal "Una rubia muy legal" 5 times.(şâ÷88ê¢¶÷ô1J$e99c1253-ad16-4d65-a910-cb5849f917ca
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8î¢¶÷ô1J$1630c70d-3f35-4925-833f-6afa38969d29
-r	java:S106"+Replace this use of System.out by a logger.(‰òÚ¡úÿÿÿÿ8™£¶÷ô1J$e0b750ef-e4a2-4872-a486-4f09d6790d65
-r	java:S106"+Replace this use of System.out by a logger.( İòòüÿÿÿÿ8›£¶÷ô1J$32816ddb-aaba-4783-8af2-d7ae7cc35fc6
-n
-java:S5960%"+Remove this assertion from production code.(ÔÂ›É8¥£¶÷ô1J$aecbb21f-418b-4f31-999f-f7172b2a7bd7
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8àö¡úô1J$ddf6423b-62db-44c1-a0a9-76f5e35e0daa
+r	java:S106"+Replace this use of System.out by a logger.(‰òÚ¡úÿÿÿÿ8ùö¡úô1J$de5dc080-8b5b-4e00-85a1-81406b8366ee
+r	java:S106"+Replace this use of System.out by a logger.( İòòüÿÿÿÿ8úö¡úô1J$c0959da2-a995-4ed8-a273-e21caebaa3df
+m	java:S106"+Replace this use of System.out by a logger.(ÂŞà´8»¥¢úô1J$f47084e5-2cc9-44eb-92ae-0cdb1979853f
+~
+java:S2696d"6Make the enclosing method "static" or remove this set.(¯›ªüÿÿÿÿ8ƒ÷¡úô1J$50240b2d-eb1f-4d38-a50a-14095d4ce746
+~
+java:S2696x"6Make the enclosing method "static" or remove this set.(¯›ªüÿÿÿÿ8†÷¡úô1J$48deffc5-f7d2-4e09-a5ab-0ee1bf74cbc8
+s
+java:S5960$"+Remove this assertion from production code.(«Øáªùÿÿÿÿ8Œ÷¡úô1J$72d69a99-f741-4f29-947a-3a2ab1d3b8d1
