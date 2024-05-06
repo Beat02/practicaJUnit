@@ -1,8 +1,8 @@
 
 –
-java:S1192#"TDefine a constant instead of duplicating this literal "Una rubia muy legal" 5 times.(þâ÷88ê¢¶÷ô1J$4e158579-3e74-4cbc-9974-c3779daacbf1
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8î¢¶÷ô1J$d5252664-89c7-4f2c-ae2f-84c043ef2365
-r	java:S106"+Replace this use of System.out by a logger.(‰òÚ¡úÿÿÿÿ8™£¶÷ô1J$0759aac1-2797-46d8-9318-9a354d05f4fd
-r	java:S106"+Replace this use of System.out by a logger.( Ýòòüÿÿÿÿ8›£¶÷ô1J$cd9b4a79-d789-4dd2-9fa3-c2e66ac31b93
+java:S1192#"TDefine a constant instead of duplicating this literal "Una rubia muy legal" 5 times.(þâ÷88ê¢¶÷ô1J$09231686-5c91-4066-ae70-1e297eb2c8c5
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8î¢¶÷ô1J$7db8ddb1-061e-4ed1-9446-34e44d058aa0
+r	java:S106"+Replace this use of System.out by a logger.(‰òÚ¡úÿÿÿÿ8™£¶÷ô1J$048ca6eb-93c1-4560-82fc-d050fa416307
+r	java:S106"+Replace this use of System.out by a logger.( Ýòòüÿÿÿÿ8›£¶÷ô1J$06d66ad8-f46b-4bd0-aa15-99115a6cbc66
 n
-java:S5960%"+Remove this assertion from production code.(ÔÂ›É8¥£¶÷ô1J$3c9541b4-fb48-40ad-a123-a6bce8db37f6
+java:S5960%"+Remove this assertion from production code.(ÔÂ›É8¥£¶÷ô1J$66fab43f-33d4-4367-afaf-70e461ea40a4
