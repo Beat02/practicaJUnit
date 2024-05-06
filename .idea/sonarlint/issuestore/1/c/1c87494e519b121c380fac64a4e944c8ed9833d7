@@ -1,7 +1,8 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8èäÈñò1J$7fc0a0d0-7131-48c7-bd74-8a76a57c7939
-r	java:S106"+Replace this use of System.out by a logger.(¨‰ÁÉıÿÿÿÿ8ÕüÈñò1J$8bcb99b8-1893-4fb8-84ac-cada8e329972
-p
-java:S1128"-Remove this unused import 'org.junit.Before'.(ÙşºÙ8ïäÈñò1J$18514061-697d-4671-9b69-6c75a676f8c3
-
-java:S1128"<Remove this unused import 'org.junit.jupiter.api.BeforeAll'.(—¦¹î8ïäÈñò1J$385838b6-7a17-4654-a220-977331a14897
+–
+java:S1192#"TDefine a constant instead of duplicating this literal "Una rubia muy legal" 5 times.(şâ÷88ŸŞˆ÷ô1J$1beb4267-7078-4b6b-985c-b6bc602b364e
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8¢Şˆ÷ô1J$454b9a7b-b846-4187-99dc-41e070fde6a3
+r	java:S106"+Replace this use of System.out by a logger.(‰òÚ¡úÿÿÿÿ8³Şˆ÷ô1J$dbc22746-3bf2-46a2-8a22-436858347393
+r	java:S106"+Replace this use of System.out by a logger.( İòòüÿÿÿÿ8µŞˆ÷ô1J$ec83cb1f-6736-4543-84c1-2d86e29dc4b6
+n
+java:S5960%"+Remove this assertion from production code.(ÔÂ›É8ÀŞˆ÷ô1J$d2c95706-0acd-4566-af19-2d69a1b3aa68
