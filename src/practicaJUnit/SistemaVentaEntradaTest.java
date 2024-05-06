@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -23,30 +24,30 @@ public class SistemaVentaEntradaTest {
         System.out.println("ANTES DE TODOS LOS TESTS");
         miSistema = new SistemaVentaEntradas();
     }
+
     //“limpiar” las listas de entradas y salas antes de cada test
     @BeforeEach
-    void limpiarCine(){
+    void limpiarCine() {
         miSistema.vaciarCine();
-        System.out.println("(Sistema de venta de entradas limpio)");
+        System.out.println("SISTEMA DE VENTA DE ENTRADAS LIMPIO");
     }
-
+    //esto es más del primer método
     @Test
-    @DisplayName("comprobar error si al comprar entrada, nos da false si la sala no existe")
+    @DisplayName("comprobar error si la sala no existe al comprar entrada")
     void comprarEntradaErrorSala() {
         miSistema.anyadirSala(1, "Una rubia muy legal");
         //Compruebo que nos da false si la sala que le indicamos no existe
         assertFalse(miSistema.comprarEntrada(30, 5));
     }
 
-    //TODO: crear el metodo como un ParameterizedTest
-    @Test
-    @DisplayName("compruebo error si las butacas son erróneas")
-    void comprarEntradaErrorButaca() {
+    @ParameterizedTest
+    @DisplayName("Comprobar si las butacas son erróneas en varias opciones")
+    @CsvSource({"1,-1",
+            "1,35"})
+    void comprarEntradaErrorButaca(int numero1, int numero2) {
         miSistema.anyadirSala(1, "Una rubia muy legal");
-        //compruebo que me da error si la entrada es 0 o menos
-        assertFalse(miSistema.comprarEntrada(1, -1));
-        // comrpuebo que da error si la butaca es mayor a 30
-        assertFalse(miSistema.comprarEntrada(1, 35));
+        assertFalse(miSistema.comprarEntrada(numero1, numero2));
+
     }
 
     @Test
@@ -59,7 +60,7 @@ public class SistemaVentaEntradaTest {
     }
 
     @Test
-    @DisplayName("Comprobar que la entrada se añadido a la lista")
+    @DisplayName("Comprobar que la entrada se añadido a la lista correctamente")
     void comprarEntradasAddListaEntradas() {
         Entrada miEntrada = new Entrada(1, 5, 10.0);
         miSistema.anyadirSala(1, "Una rubia muy legal");

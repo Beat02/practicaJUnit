@@ -1,17 +1,13 @@
 
 —
-java:S1192$"TDefine a constant instead of duplicating this literal "Una rubia muy legal" 4 times.(‘øò»8æÜ¹íô1J$c322c152-bf52-43d9-8a48-3ffd4a7394a1
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8éÜ¹íô1J$b1a2a5d8-2d06-4148-a8ac-ac06208ed5d6
-r	java:S106"+Replace this use of System.out by a logger.(‰òÚ¡úÿÿÿÿ8÷Ü¹íô1J$0b1589e9-3d80-41eb-917a-73ebe871d02c
-m	java:S106"+Replace this use of System.out by a logger.(œîÁ8úÜ¹íô1J$14004b10-407a-4023-9524-c29646cbe91f
-z
-java:S1135)"2Complete the task associated to this TODO comment.(ä·êåúÿÿÿÿ8€İ¹íô1J$28ede293-515c-4b96-b555-ce57aa829837
-Š
-java:S1128"GRemove this unused import 'org.junit.jupiter.params.ParameterizedTest'.(…²üî8Öö»íô1J$a3f11486-df12-4c2b-a912-20e18109ec11
+java:S1192&"TDefine a constant instead of duplicating this literal "Una rubia muy legal" 4 times.(‘øò»8ú½åíô1J$d8aa7c97-1ac5-41e1-bebe-a004abc030b6
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8ü½åíô1J$c178146e-f1b6-4fad-8cf3-7a5a8f82f939
+r	java:S106"+Replace this use of System.out by a logger.(‰òÚ¡úÿÿÿÿ8ˆ¾åíô1J$a68c3801-37e4-4c1d-8373-6ed2ba25b1e5
+r	java:S106 "+Replace this use of System.out by a logger.( İòòüÿÿÿÿ8Š¾åíô1J$7a088f4c-d93a-4583-bf79-b1b8df40af0a
 s
-java:S1128	"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8×ö»íô1J$f0ec34aa-fc83-4656-90f5-2b74bdff90a3
-y
 java:S1128
-"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8×ö»íô1J$0449eac5-c2be-40f8-85a0-9f0f3e25e321
+"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ÒŠçíô1J$cd2f8c36-86f5-4be4-9f17-68cbb35b9081
+y
+java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8ÒŠçíô1J$6840146d-6c76-41bd-9c02-3f19982ef352
 n
-java:S5960&"+Remove this assertion from production code.(©ßñÁ8†İ¹íô1J$afaab86c-f4ae-45cc-9c33-f248af9fd9b9
+java:S5960("+Remove this assertion from production code.(©ßñÁ8“¾åíô1J$930bd8c1-2085-4aa0-8264-43c55b6da43f
