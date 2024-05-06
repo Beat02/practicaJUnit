@@ -1,11 +1,11 @@
 
-†
-java:S1319_"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¶ùžÒ
-†
-java:S1319e"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Åâ‘³
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(³¢ÐÞ
-@	java:S106%"+Replace this use of System.out by a logger.(ðòÇ¾
-E	java:S106)"+Replace this use of System.out by a logger.(Û¾Â†ûÿÿÿÿ
-@	java:S106B"+Replace this use of System.out by a logger.(ß–Û¯
-E	java:S106H"+Replace this use of System.out by a logger.(â‰ƒ¢üÿÿÿÿ
+¬
+java:S1319_"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¶ùžÒJ$c8dba10b-f4ca-4c77-82cf-25da6ed84d03
+¬
+java:S1319e"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Åâ‘³J$59a5650b-f2cc-4c5f-b619-cbebf8531be7
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿJ$21f896b4-1d38-44a0-9060-a0b9632db58e
+f	java:S106"+Replace this use of System.out by a logger.(³¢ÐÞJ$bf37a95b-8088-43a7-bcbc-527792ee72df
+f	java:S106%"+Replace this use of System.out by a logger.(ðòÇ¾J$299c1d30-c46e-4e46-94c1-e30e5947de14
+k	java:S106)"+Replace this use of System.out by a logger.(Û¾Â†ûÿÿÿÿJ$aacf7ba2-20dd-4710-b52b-cd2712259dd3
+f	java:S106B"+Replace this use of System.out by a logger.(ß–Û¯J$f91ed660-e110-49ae-9990-fcd5a1494308
+k	java:S106H"+Replace this use of System.out by a logger.(â‰ƒ¢üÿÿÿÿJ$cd8c4692-9c96-44b1-a512-93dc763b9f68
