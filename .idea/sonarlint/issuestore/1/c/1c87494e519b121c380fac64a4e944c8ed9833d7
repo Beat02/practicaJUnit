@@ -1,14 +1,18 @@
 
 —
-java:S1192"TDefine a constant instead of duplicating this literal "Una rubia muy legal" 3 times.(‘øò»8ööàëô1J$d84dee8f-1053-4fff-ba6c-719117d6d9bc
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8øöàëô1J$9f936352-df2f-49ac-8b7b-50c9697eda4c
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(’—ãÚıÿÿÿÿ8„÷àëô1J$cba35041-c870-42eb-b9c0-803ace3d5c6d
+java:S1192"TDefine a constant instead of duplicating this literal "Una rubia muy legal" 3 times.(‘øò»8ºşöëô1J$f34b3dff-e50b-4b7d-9b24-a3a862d152ea
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8¿şöëô1J$820fb36c-076d-4448-94ff-0acbf7bd99a6
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(’—ãÚıÿÿÿÿ8Ôşöëô1J$f34e8968-9ad9-4f5a-b056-4dc6d4023420
+u
+java:S1135"2Complete the task associated to this TODO comment.(Ñ‡ĞÜ8Ùşöëô1J$eb348c9a-1157-4d1a-bdaa-151b89aff3df
 z
-java:S1135!"2Complete the task associated to this TODO comment.(ä·êåúÿÿÿÿ8ˆ÷àëô1J$f857a8ee-b62c-470c-8e47-50d00f40dbe1
+java:S1135!"2Complete the task associated to this TODO comment.(ä·êåúÿÿÿÿ8éşöëô1J$b4130366-269b-465a-903e-311b0c2bd07c
 …
-java:S18548"=Remove this useless assignment to local variable "miSistema".(¢€ˆûÿÿÿÿ8‹÷àëô1J$97b847a8-d019-4fb2-aef1-edaf3cd48d4b
+java:S18548"=Remove this useless assignment to local variable "miSistema".(¢€ˆûÿÿÿÿ8ğşöëô1J$f6fa7a1a-0df5-43a0-9ac7-9a64dc8e76df
 v
-java:S14818".Remove this unused "miSistema" local variable.(¢€ˆûÿÿÿÿ8÷àëô1J$ad0d47fc-412c-4d41-b4ae-361e723f168f
-~	java:S125="<This block of commented-out lines of code should be removed.(«•áó8÷àëô1J$298f3563-8f00-4fef-b269-3f9012fe3d51
+java:S14818".Remove this unused "miSistema" local variable.(¢€ˆûÿÿÿÿ8ôşöëô1J$c7f41c3f-5fea-47b6-a054-d383a5bd4279
+~	java:S125="<This block of commented-out lines of code should be removed.(«•áó8™ÿöëô1J$3c9813ec-8f24-4180-9afe-7ae5ce74573c
+Š
+java:S1128"GRemove this unused import 'org.junit.jupiter.params.ParameterizedTest'.(…²üî8šÿöëô1J$33b1ffe7-0e82-47cc-bce4-d4cae4ad4e40
 n
-java:S5960"+Remove this assertion from production code.(©ßñÁ8÷àëô1J$fa2e57f7-02e2-492c-aa61-7a073fc0bde7
+java:S5960"+Remove this assertion from production code.(©ßñÁ8›ÿöëô1J$a39f005f-8d6f-47aa-9f22-ba4c64bc7987

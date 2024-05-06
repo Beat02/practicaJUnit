@@ -13,11 +13,11 @@ clase), utilizando el método “vaciarCine()”.
 Después, en cada método de test aislado, preparar las listas
 con la información necesaria para cada prueba.*/
 public class SistemaVentaEntradaTest {
+//TODO: “limpiar” las listas de entradas y salas antes de cada test
+    //@BeforeEach
+    //void limpiarCine(){
+    //System.out.println("(Limpiando salas y listas de entradas)");
 
-//    @BeforeEach
-//    void limpiarCine(){
-//        System.out.println("(Limpiando salas y listas de entradas)");
-//    }
 
     @Test
     @DisplayName("comprobar error si al comprar entrada, nos da false si la sala no existe")
@@ -51,7 +51,7 @@ public class SistemaVentaEntradaTest {
 
     }
     @Test
-    @DisplayName()
+    @DisplayName("Comprobar que la entrada se añadido a la lista")
     void comprarEntradasAddListaEntradas(){
         SistemaVentaEntradas miSistema=new SistemaVentaEntradas();
         Entrada miEntrada=new Entrada(1,5,10.0);
