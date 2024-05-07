@@ -3,8 +3,9 @@ package practicaJUnit;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-
 import static org.junit.jupiter.api.Assertions.*;
+
+//TRABAJAO REALIZADO POR IRENE GONZÁLEZ Y BEATRIZ RUIZ
 
 public class SistemaVentaEntradaTest {
     static SistemaVentaEntradas sistemaVenta;
@@ -131,6 +132,7 @@ public class SistemaVentaEntradaTest {
     @Test
     @DisplayName("Comprobar ArrayList salas vaciado")
     void vaciarCineTest() {
+        sistemaVenta.anyadirSala(1, pelicula);
         sistemaVenta.getSalas().clear();
         int totalSalas = sistemaVenta.getSalas().size();
         assertEquals(0, totalSalas);
@@ -139,6 +141,8 @@ public class SistemaVentaEntradaTest {
     @Test
     @DisplayName("Comprobar ArrayList entradas vaciado")
     void vaciarCineTestEntradas() {
+        sistemaVenta.anyadirSala(1, pelicula);
+        sistemaVenta.comprarEntrada(1, 5);
         sistemaVenta.getEntradas().clear();
         int totalEntradas = sistemaVenta.getEntradas().size();
         assertEquals(0, totalEntradas);

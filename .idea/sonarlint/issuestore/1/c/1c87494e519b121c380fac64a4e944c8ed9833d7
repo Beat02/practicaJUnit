@@ -1,13 +1,13 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8ïãåúô1J$d326bf74-7e3c-4918-a6ff-956a3ca23bbc
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶â–¡úÿÿÿÿ8á¡„õ1J$ec1c6c85-5e83-4795-a8de-23108538f3e0
 ¯
-java:S4144D"gUpdate this method so that its implementation is not identical to "comprarEntradaErrorSala" on line 59.(ç¹šàÿÿÿÿÿ8éÙçúô1J$5eec283d-003b-42fb-985f-04df1cab78ab
-r	java:S106"+Replace this use of System.out by a logger.(‰òÚ¡úÿÿÿÿ8’äåúô1J$981acf44-4830-4c8f-af2d-dba2afb82eb6
-r	java:S106"+Replace this use of System.out by a logger.( İòòüÿÿÿÿ8”äåúô1J$a34c2c93-d80a-474c-94ef-e524305cdd9d
-m	java:S106"+Replace this use of System.out by a logger.(ÂŞà´8•äåúô1J$1df179fb-d2ab-4c0b-a6f4-e77e2a35d116
+java:S4144E"gUpdate this method so that its implementation is not identical to "comprarEntradaErrorSala" on line 60.(ç¹šàÿÿÿÿÿ8ô¡„õ1J$8e13f7f2-76be-4f7f-8801-82e2d461369d
+r	java:S106"+Replace this use of System.out by a logger.(‰òÚ¡úÿÿÿÿ8ù¡„õ1J$49329dcb-d971-4288-aa4c-5508f18b25e7
+r	java:S106"+Replace this use of System.out by a logger.( İòòüÿÿÿÿ8ú¡„õ1J$fa31edf5-d6e4-460c-9c69-2653c2921383
+m	java:S106"+Replace this use of System.out by a logger.(ÂŞà´8ú¡„õ1J$8fb009e5-2723-4511-829d-749fee18dda6
 ~
-java:S2696e"6Make the enclosing method "static" or remove this set.(¯›ªüÿÿÿÿ8¢äåúô1J$6112aa6f-c662-4d3b-9b86-bc5d4036d476
+java:S2696f"6Make the enclosing method "static" or remove this set.(¯›ªüÿÿÿÿ8‚¢„õ1J$f22acf1d-c3cc-4aea-b3d8-8e01e0d1cc69
 ~
-java:S2696|"6Make the enclosing method "static" or remove this set.(¯›ªüÿÿÿÿ8¥äåúô1J$bd35013e-11a5-4486-9b6e-f65517b3e203
+java:S2696}"6Make the enclosing method "static" or remove this set.(¯›ªüÿÿÿÿ8„¢„õ1J$6fa6878d-4657-41d3-a331-8e29cdf2ac57
 s
-java:S5960#"+Remove this assertion from production code.(«Øáªùÿÿÿÿ8ªäåúô1J$fb441822-de28-4a75-b0b6-d6e730b480a3
+java:S5960$"+Remove this assertion from production code.(«Øáªùÿÿÿÿ8‰¢„õ1J$b0c68296-bdd0-4903-9f1a-7afa437a2979
